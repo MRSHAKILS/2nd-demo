@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Fira Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+background-color: rgb(241, 241, 241);
+margin: 0;
+}
+.Influencer{
+    display: flex;
+     justify-content: space-between; 
+    margin: 100px 150px;
+    flex-wrap: wrap;
+    
+}
+.Influencer p{
+    font-size: 35px;
+    font-weight: 800;
+}
+.Influencer div{
+    display: flex;
+    
+}
+.Influencer div li{
+    list-style: none;
+    margin: 25px 20px;
+    font-weight: 700;
+    font-size: 15px;
+}
+.first-container{
+    display: flex;
+    justify-content: space-between; 
+    margin: 100px 150px;
+    /* flex-wrap: wrap; */
+    
+}
+.heading-1{
+    width: 45%;
+
+   
+   
+}
+.first-container:hover{
+    background-image: url(images/css-animation.gif);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.h1{
+    font-size: 65px;
+    font-weight: 900;
+}
+.heading-1 p{
+    font-size: 25px;
+    background-clip: text;
+  
+   
+}
+.btn-1{
+    width: 190px;
+    height: 45px;
+    border-radius: 27px;
+    border: 1px;
+    background-color: blueviolet;
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 150px;
+    margin-bottom: 80px;
+}
+.logos{
+   
+    border-top: 1px solid rgb(206, 197, 197);
+    border-bottom: 1px solid rgb(206, 197, 197);
+    text-align: center;
+    
+}
+.logos img{
+    margin: 25px 50px;
+}
+.ratings{
+    color: rgb(177, 177, 39);
+}
+.products-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.box{
+    width: 350px;
+    height: 550px;
+    border: 1px;
+    border-radius:15px ;
+    padding: 10px;
+   background-color: white;
+   margin: 10px 40px;
+   box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.2);
+}
+.box img{
+ padding-left: 15px;
+}
+.link{
+    text-decoration: none;
+    color: magenta;
+    display: block;
+    text-align: right;
+    margin-right: 300px;
+    font-size: 20px;
+} 
+footer{
+    background-color: rgb(30, 0, 58);
+    color: white;
+    text-align: center;
+}
+footer a{
+    width: 35px;
+    height: 35px;
+    margin: 10px 20px;
+    color: white;
+}
+
+
+/* Small devices   */
+@media only screen and (max-width: 580px) {
+ .products-box{
+    flex-direction: column; 
+    
+ }
+
+.camera{
+    height: 300px;
+    width: 400px;
+    margin-right: 50px;
+
+}
+.box{
+    margin-bottom: 50px;
+} 
+.first-container{
+    flex-direction: column;
+}
+}
+
+
+
+ /* Medium devices  */
+@media only screen and (max-width: 768px) {
+    
+}
+
+
+@media only screen and (min-width: 1200px) {
+
+}
